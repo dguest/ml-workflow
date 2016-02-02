@@ -181,7 +181,7 @@
      inkscape:cx="495"
      inkscape:cy="391.21141"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer3"
      showgrid="true"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -399,7 +399,7 @@
          sodipodi:role="line"
          id="tspan4175-6"
          x="586.89655"
-         y="509.82758">Histograms</tspan></text>
+         y="509.82758">ROC Curves</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -455,7 +455,7 @@
        style="opacity:1;fill:#ff6600;fill-opacity:0.39215686;stroke:none;stroke-width:17.71653557;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect8692"
        width="372.5"
-       height="130"
+       height="279.27621"
        x="530"
        y="261.25"
        rx="46.806702"
