@@ -9,6 +9,7 @@ TRAINING = 'training'
 TMVA = 'TMVA'
 CONVERTER = 'converter'
 THEANO = 'theano'
+GENERIC = 'generic'
 
 
 def run():
@@ -16,6 +17,7 @@ def run():
     print_with([BASE], BASE, **args)
     print_with([BASE, TRAINING], TRAINING, **args)
     print_with([BASE, TRAINING, TMVA], 'tmva', **args)
+    print_with([BASE, TRAINING, GENERIC], GENERIC, **args)
     print_with([BASE, TRAINING, THEANO], THEANO, **args)
     print_with([BASE, TRAINING, THEANO, LWT], LWT, **args)
     print_with([BASE, TRAINING, THEANO, LWT, CONVERTER], CONVERTER, **args)
